@@ -3,13 +3,17 @@
     font-family: Inconsolata;
 }
 
+hr {
+    color: rgb(255, 255, 255)
+}
 
 body {
     background-color: black;
     height: auto;
     width: 50%;
-    min-width: 400px;
+    min-width: 300px;
     margin: auto;
+    padding-bottom: 70px;
     color: white;
     font-family: Inconsolata, Arial, Helvetica;
 }
@@ -33,9 +37,10 @@ h1 {
     text-align: center;
 }
 
-h2::after{
+h2::after {
     content: "ˎˊ˗";
 }
+
 p {
     font-family: Inconsolata, Arial, Helvetica;
 
@@ -48,6 +53,7 @@ pre {
 a:link {
     text-decoration: none;
     color: rgb(255, 175, 236);
+    padding: 9px;
 }
 
 a:hover {
@@ -61,11 +67,11 @@ a:visited {
 
 
 
-.navi-box {
+button {
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 9px;
-    margin: 3px;
+    border-radius: 50px;
+     padding: 5px;
+    background-color: rgb(0, 0, 0);
     margin-top: 15px;
 }
 
@@ -94,7 +100,8 @@ a:visited {
     text-decoration: underline;
     font-size: large;
 }
-.project-title::before{
+
+.project-title::before {
     content: ☆;
 }
 
